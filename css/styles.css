@@ -344,7 +344,7 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
-  border: 2px solid black;
+  border: 0px solid black;
 }
 
 caption {
@@ -7975,6 +7975,7 @@ fieldset:disabled .btn {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: #ffbb64;
 }
 
 .mb-1 {
@@ -11371,10 +11372,11 @@ footer.footer .social-link:hover {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../assets/img/bg-masthead.jpg");
+    url("https://lottie.host/926ee11c-4a9f-48c5-ac24-51c710e77052/FW40LzOJ1L.json");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #176b87;
 }
 .masthead h1,
 .masthead .h1 {
