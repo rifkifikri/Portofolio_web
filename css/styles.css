@@ -675,23 +675,36 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+}
+
+.container-head {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (max-width: 500px) {
   .container-sm,
-  .container {
-    max-width: 540px;
+  .container-head {
+    display: block;
+    max-width: 480px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .animasi {
     width: 100%;
-    display: flex;
     justify-content: center;
+    position: static;
+  }
+  .welcome {
+    position: static;
   }
   .lottie_style {
     max-width: 70%;
     max-height: 70%;
+  }
+  .bukti {
+    height: 70%;
+    width: 70%;
   }
 }
 @media (min-width: 576px) {
@@ -714,14 +727,8 @@ progress {
   .container {
     max-width: 720px;
   }
-  .animasi {
-    width: 30%;
-  }
-  .lottie_style {
-    max-width: 100%;
-    max-height: 100%;
-  }
 }
+
 @media (min-width: 992px) {
   .container-lg,
   .container-md,
@@ -738,6 +745,13 @@ progress {
   .container {
     max-width: 1140px;
   }
+  .animasi {
+    width: 30%;
+  }
+  .lottie_style {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 @media (min-width: 1400px) {
   .container-xxl,
@@ -747,6 +761,13 @@ progress {
   .container-sm,
   .container {
     max-width: 1320px;
+  }
+  .animasi {
+    width: 30%;
+  }
+  .lottie_style {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 .row {
@@ -8007,7 +8028,8 @@ fieldset:disabled .btn {
 
 .mb-0 {
   margin-bottom: 0 !important;
-  color: #ffbb64;
+  color: #820300;
+  font-weight: 900;
 }
 
 .mb-1 {
