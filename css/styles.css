@@ -688,6 +688,19 @@ progress {
   margin-left: auto;
 }
 
+@media (min-width: 200px) {
+  .keterangan {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media (min-width: 450px) {
+  .keterangan {
+    display: block;
+    visibility: visible;
+  }
+}
+
 @media (max-width: 500px) {
   .container-sm,
   .container-head {
